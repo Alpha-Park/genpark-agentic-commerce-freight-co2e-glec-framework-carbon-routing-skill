@@ -1,0 +1,20 @@
+{
+  "name": "genpark-agentic-commerce-freight-co2e-glec-framework-carbon-routing-skill",
+  "version": "1.0.0",
+  "description": "Global Logistics Emissions Council (GLEC) multimodal carbon footprint routing & green corridor carrier select engine.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "calculate_glec_freight_emissions",
+      "description": "Global Logistics Emissions Council (GLEC) multimodal carbon footprint routing & green corridor carrier select engine.",
+      "sample_input": {
+        "shipment_weight_tonnes": 4.5,
+        "distance_km": 1850.0
+      }
+    }
+  ]
+}
